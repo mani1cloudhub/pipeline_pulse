@@ -11,6 +11,7 @@
       "name": "pipeline-pulse-backend",
       "image": "272858488437.dkr.ecr.ap-southeast-1.amazonaws.com/pipeline-pulse:latest",
       "essential": true,
+      "workingDirectory": "/app",
       "portMappings": [
         {
           "containerPort": 8000,
